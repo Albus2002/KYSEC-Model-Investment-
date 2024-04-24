@@ -1,0 +1,76 @@
+nohup: ignoring input
+/usr/local/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:520: UserWarning: Using a target size (torch.Size([50000])) that is different to the input size (torch.Size([50000, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/usr/local/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:520: UserWarning: Using a target size (torch.Size([45239])) that is different to the input size (torch.Size([45239, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+合法股票数：4735
+Epoch 1, Batch 500/1853, Train Loss: 2.0244815459591337e-05, Val Loss: 2.545046894835529e-10, Val R^2: -0.02941708111384932
+Best model saved to ../model_0329_BiAGRU/model_best_0_r2_-0.02941708111384932.pth with Val Loss: 2.545046894835529e-10, Val R^2: -0.02941708111384932
+合法股票数：4735
+Epoch 1, Batch 1000/1853, Train Loss: 9.977449735742994e-06, Val Loss: 2.5448894781463845e-10, Val R^2: -0.029325900240661024
+Best model saved to ../model_0329_BiAGRU/model_best_0_r2_-0.029325900240661024.pth with Val Loss: 2.5448894781463845e-10, Val R^2: -0.029325900240661024
+合法股票数：4720
+Epoch 1, Batch 1500/1853, Train Loss: 1.1553019248822238e-05, Val Loss: 3.035368542459743e-10, Val R^2: -0.3123571327572171
+/usr/local/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:520: UserWarning: Using a target size (torch.Size([26955])) that is different to the input size (torch.Size([26955, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+合法股票数：4735
+Epoch 2, Batch 500/1853, Train Loss: 1.126356073655188e-05, Val Loss: 2.7405219529149866e-10, Val R^2: -0.14297178462628385
+合法股票数：3870
+Epoch 2, Batch 1000/1853, Train Loss: 2.023691195063293e-05, Val Loss: 3.6898609357631e-10, Val R^2: -0.5518227823411276
+合法股票数：4658
+Epoch 2, Batch 1500/1853, Train Loss: 1.2123120541218668e-05, Val Loss: 3.069300428931787e-10, Val R^2: -0.32645629804944853
+合法股票数：4624
+Epoch 3, Batch 500/1853, Train Loss: 1.2833829714509193e-05, Val Loss: 3.2556570185134376e-10, Val R^2: -0.4254023385852924
+合法股票数：4735
+Epoch 3, Batch 1000/1853, Train Loss: 9.141548616753425e-06, Val Loss: 2.514530118102143e-10, Val R^2: -0.011893674919891937
+Best model saved to ../model_0329_BiAGRU/model_best_2_r2_-0.011893674919891937.pth with Val Loss: 2.514530118102143e-10, Val R^2: -0.011893674919891937
+合法股票数：4735
+Epoch 3, Batch 1500/1853, Train Loss: 1.0662132808647584e-05, Val Loss: 2.521222593726963e-10, Val R^2: -0.01718610048623761
+合法股票数：4735
+Epoch 4, Batch 500/1853, Train Loss: 9.922425306285731e-06, Val Loss: 2.5417311594462654e-10, Val R^2: -0.029496145081273937
+合法股票数：4728
+Epoch 4, Batch 1000/1853, Train Loss: 1.3001765182707459e-05, Val Loss: 2.8194902243743623e-10, Val R^2: -0.19287732329180562
+合法股票数：4735
+Epoch 4, Batch 1500/1853, Train Loss: 9.760106877365615e-06, Val Loss: 2.5045944132215807e-10, Val R^2: -0.006266786304927314
+Best model saved to ../model_0329_BiAGRU/model_best_3_r2_-0.006266786304927314.pth with Val Loss: 2.5045944132215807e-10, Val R^2: -0.006266786304927314
+合法股票数：4735
+Epoch 5, Batch 500/1853, Train Loss: 1.0042379471997265e-05, Val Loss: 2.5339027006004644e-10, Val R^2: -0.024806135058097558
+合法股票数：4735
+Epoch 5, Batch 1000/1853, Train Loss: 9.77675063040806e-06, Val Loss: 2.530385706040282e-10, Val R^2: -0.020973828609882086
+合法股票数：4735
+Epoch 5, Batch 1500/1853, Train Loss: 9.45919964578934e-06, Val Loss: 2.516038697414914e-10, Val R^2: -0.012753881756806907
+合法股票数：4735
+Epoch 6, Batch 500/1853, Train Loss: 1.0718233170337044e-05, Val Loss: 2.804958436034401e-10, Val R^2: -0.18053932232383924
+合法股票数：4735
+Epoch 6, Batch 1000/1853, Train Loss: 1.0171758731303271e-05, Val Loss: 2.594833517291592e-10, Val R^2: -0.05822728441827699
+合法股票数：4206
+Epoch 6, Batch 1500/1853, Train Loss: 1.1314517905702814e-05, Val Loss: 3.5725286726585173e-10, Val R^2: -0.5460341818074512
+合法股票数：4735
+Epoch 7, Batch 500/1853, Train Loss: 1.4490490684693214e-05, Val Loss: 2.569792569662019e-10, Val R^2: -0.04625573446653267
+合法股票数：4733
+Epoch 7, Batch 1000/1853, Train Loss: 1.2492193491198123e-05, Val Loss: 2.9145978291369805e-10, Val R^2: -0.2441134962905714
+合法股票数：4363
+Epoch 7, Batch 1500/1853, Train Loss: 1.3234817743068561e-05, Val Loss: 3.3854866696429255e-10, Val R^2: -0.459237884566164
+合法股票数：4735
+Epoch 8, Batch 500/1853, Train Loss: 9.752151527209207e-06, Val Loss: 2.6084043865606714e-10, Val R^2: -0.06610192347879797
+合法股票数：4735
+Epoch 8, Batch 1000/1853, Train Loss: 1.1611022273427807e-05, Val Loss: 2.501587659419622e-10, Val R^2: -0.005242479931591445
+Best model saved to ../model_0329_BiAGRU/model_best_7_r2_-0.005242479931591445.pth with Val Loss: 2.501587659419622e-10, Val R^2: -0.005242479931591445
+合法股票数：4735
+Epoch 8, Batch 1500/1853, Train Loss: 9.405146556673571e-06, Val Loss: 2.546886650625425e-10, Val R^2: -0.03047788188818943
+合法股票数：4735
+Epoch 9, Batch 500/1853, Train Loss: 1.0034037586592603e-05, Val Loss: 2.496755438037922e-10, Val R^2: -0.00207272836232889
+Best model saved to ../model_0329_BiAGRU/model_best_8_r2_-0.00207272836232889.pth with Val Loss: 2.496755438037922e-10, Val R^2: -0.00207272836232889
+合法股票数：4735
+Epoch 9, Batch 1000/1853, Train Loss: 9.324721759185195e-06, Val Loss: 2.4970396886728997e-10, Val R^2: -0.0023234082710570066
+合法股票数：4735
+Epoch 9, Batch 1500/1853, Train Loss: 1.0125679182237945e-05, Val Loss: 2.5041478583220344e-10, Val R^2: -0.006016527710631239
+合法股票数：4735
+Epoch 10, Batch 500/1853, Train Loss: 9.841432074608747e-06, Val Loss: 2.5200582870007944e-10, Val R^2: -0.015050702855585487
+合法股票数：4735
+Epoch 10, Batch 1000/1853, Train Loss: 1.013542350847274e-05, Val Loss: 2.5147625678345507e-10, Val R^2: -0.013286365896390775
+合法股票数：4735
+Epoch 10, Batch 1500/1853, Train Loss: 9.475140359427314e-06, Val Loss: 2.4973029178396267e-10, Val R^2: -0.002288704349413868
+合法股票数：4735
+Test Loss: 2.562702061856753e-10, R2:-0.036528238236692184
+Test Pearson Correlation: 0.0012444098069374534

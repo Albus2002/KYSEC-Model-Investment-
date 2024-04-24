@@ -1,0 +1,66 @@
+nohup: ignoring input
+合法股票数：3192
+Epoch 1, Batch 500/1853, Train Loss: 0.0011833239113911986, Val Loss: 4.0114872489085886e-10, Val R^2: -0.6044939998058203
+Best model saved to ../model_0328_transformer/model_best_0_r2_-0.6044939998058203.pth with Val Loss: 4.0114872489085886e-10, Val R^2: -0.6044939998058203
+合法股票数：4493
+Epoch 1, Batch 1000/1853, Train Loss: 0.0002609002694953233, Val Loss: 3.2559308426570676e-10, Val R^2: -0.41552132864478636
+Best model saved to ../model_0328_transformer/model_best_0_r2_-0.41552132864478636.pth with Val Loss: 3.2559308426570676e-10, Val R^2: -0.41552132864478636
+合法股票数：4728
+Epoch 1, Batch 1500/1853, Train Loss: 8.930004696594551e-05, Val Loss: 2.889280376351393e-10, Val R^2: -0.23666096889930888
+Best model saved to ../model_0328_transformer/model_best_0_r2_-0.23666096889930888.pth with Val Loss: 2.889280376351393e-10, Val R^2: -0.23666096889930888
+合法股票数：4735
+Epoch 2, Batch 500/1853, Train Loss: 3.999058753834106e-05, Val Loss: 2.774672206379473e-10, Val R^2: -0.1671201224663488
+Best model saved to ../model_0328_transformer/model_best_1_r2_-0.1671201224663488.pth with Val Loss: 2.774672206379473e-10, Val R^2: -0.1671201224663488
+合法股票数：4735
+Epoch 2, Batch 1000/1853, Train Loss: 3.05204521282576e-05, Val Loss: 2.798565503817148e-10, Val R^2: -0.18041220565830396
+合法股票数：4735
+Epoch 2, Batch 1500/1853, Train Loss: 2.4025019229156896e-05, Val Loss: 2.6908890103924936e-10, Val R^2: -0.1164914371903158
+Best model saved to ../model_0328_transformer/model_best_1_r2_-0.1164914371903158.pth with Val Loss: 2.6908890103924936e-10, Val R^2: -0.1164914371903158
+合法股票数：4735
+Epoch 3, Batch 500/1853, Train Loss: 1.9213915948057547e-05, Val Loss: 2.6391336515975987e-10, Val R^2: -0.0855583059069639
+Best model saved to ../model_0328_transformer/model_best_2_r2_-0.0855583059069639.pth with Val Loss: 2.6391336515975987e-10, Val R^2: -0.0855583059069639
+合法股票数：4735
+Epoch 3, Batch 1000/1853, Train Loss: 1.6463816791656427e-05, Val Loss: 2.675208481187513e-10, Val R^2: -0.10649242571181654
+合法股票数：4735
+Epoch 3, Batch 1500/1853, Train Loss: 1.4849753824819345e-05, Val Loss: 2.5806739206407296e-10, Val R^2: -0.05096957271461852
+Best model saved to ../model_0328_transformer/model_best_2_r2_-0.05096957271461852.pth with Val Loss: 2.5806739206407296e-10, Val R^2: -0.05096957271461852
+合法股票数：4735
+Epoch 4, Batch 500/1853, Train Loss: 1.2472149137465749e-05, Val Loss: 2.535893714390775e-10, Val R^2: -0.024678918194912594
+Best model saved to ../model_0328_transformer/model_best_3_r2_-0.024678918194912594.pth with Val Loss: 2.535893714390775e-10, Val R^2: -0.024678918194912594
+合法股票数：4735
+Epoch 4, Batch 1000/1853, Train Loss: 1.2899974535685033e-05, Val Loss: 2.7622628260931054e-10, Val R^2: -0.15681928582538293
+合法股票数：4735
+Epoch 4, Batch 1500/1853, Train Loss: 1.1633846042968798e-05, Val Loss: 2.550834919453985e-10, Val R^2: -0.03324383998084729
+合法股票数：4735
+Epoch 5, Batch 500/1853, Train Loss: 1.1141230970679317e-05, Val Loss: 2.5767630182471674e-10, Val R^2: -0.04822873831082675
+合法股票数：4735
+Epoch 5, Batch 1000/1853, Train Loss: 1.1760943380068056e-05, Val Loss: 2.497775745465082e-10, Val R^2: -0.0026973521767271504
+Best model saved to ../model_0328_transformer/model_best_4_r2_-0.0026973521767271504.pth with Val Loss: 2.497775745465082e-10, Val R^2: -0.0026973521767271504
+合法股票数：4735
+Epoch 5, Batch 1500/1853, Train Loss: 1.0270018719893415e-05, Val Loss: 2.502355093937956e-10, Val R^2: -0.005613724983540996
+合法股票数：4735
+Epoch 6, Batch 500/1853, Train Loss: 1.0522086085984483e-05, Val Loss: 2.5701173844085096e-10, Val R^2: -0.044193694699879
+合法股票数：4735
+Epoch 6, Batch 1000/1853, Train Loss: 1.0085458598041441e-05, Val Loss: 2.4978534664320004e-10, Val R^2: -0.002638073362988552
+合法股票数：4735
+Epoch 6, Batch 1500/1853, Train Loss: 1.0393509910500143e-05, Val Loss: 2.5838529948186e-10, Val R^2: -0.05210370798430652
+Traceback (most recent call last):
+  File "transformer_test.py", line 216, in <module>
+    for batch_idx, (data, target) in enumerate(train_loader):
+  File "/usr/local/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 359, in __iter__
+    return self._get_iterator()
+  File "/usr/local/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 305, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 918, in __init__
+    w.start()
+  File "/usr/local/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/usr/local/anaconda3/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/local/anaconda3/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/local/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/local/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 70, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
